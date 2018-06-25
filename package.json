@@ -5,7 +5,10 @@
   },
   "scripts": {
     "minify": "uglifyjs --mangle --compress -- js/hover.js > js/hover.min.js",
-    "prettify": "prettier --trailing-comma=es5 --single-quote --print-width=120 --write ./js/hover.js"
+    "prettify": "prettier --trailing-comma=es5 --single-quote --print-width=120 --write ./js/hover.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+
   },
   "name": "marissa",
   "version": "1.0.0",
